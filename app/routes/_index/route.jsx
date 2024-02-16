@@ -19,36 +19,16 @@ export async function loader({ request }) {
 
 export default function App() {
   const { showForm } = useLoaderData();
-
+  
   return (
     <div className="index">
+       <div className="overlay">
       <div className="content">
-        <h1>A short heading about [your app]</h1>
-        <p>A tagline about [your app] that describes your value proposition.</p>
-        {showForm && (
-          <Form method="post" action="/auth/login">
-            <label>
-              <span>Shop domain</span>
-              <input type="text" name="shop" />
-              <span>e.g: my-shop-domain.myshopify.com</span>
-            </label>
-            <button type="submit">Log in</button>
-          </Form>
-        )}
-        <ul>
-          <li>
-            <strong>Product feature</strong>. Some detail about your feature and
-            its benefit to your customer.
-          </li>
-          <li>
-            <strong>Product feature</strong>. Some detail about your feature and
-            its benefit to your customer.
-          </li>
-          <li>
-            <strong>Product feature</strong>. Some detail about your feature and
-            its benefit to your customer.
-          </li>
-        </ul>
+      <img src="https://retrospec.com/cdn/shop/files/Retrospec_Riff_Orange_RGB_1_c1b72e68-c0f7-4c2a-a0b2-38c945ced646_100x.png" alt="Logo" className="logo" />
+        <h1>Customer account UI extensions For Restrospect</h1>
+        <p>Customer account UI extensions for B2B platfrom develop by Restrospect Dev Team </p>
+        
+      </div>
       </div>
     </div>
   );
