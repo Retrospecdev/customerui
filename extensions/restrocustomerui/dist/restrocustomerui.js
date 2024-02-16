@@ -19462,7 +19462,13 @@ ${errorInfo.componentStack}`);
     () => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Extension, {})
   );
   function Extension() {
-    return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Banner2, { children: "Please dont add any payment method we will send you invoice via our own method" });
+    return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
+      Banner2,
+      {
+        status: "critical",
+        title: "STOP!!! Do not input payment information in the web portal. Shopify has not made it possible to hide this area, but entering payment here may result in you being charged in error. For all payment matters, please email your rep or AR@Retrospec.com. Payments are not handled in this portal!"
+      }
+    );
   }
 })();
 //# sourceMappingURL=restrocustomerui.js.map
