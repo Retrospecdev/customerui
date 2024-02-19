@@ -2,7 +2,7 @@
 
 client_id = "10955dd9a7859fcc61e6d5c98aec4b04"
 name = "restrocustomerui"
-application_url = "https://sandy-latitude-portal-translations.trycloudflare.com"
+application_url = "https://demonstrates-geography-differently-unlikely.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "read_payment_customizations,write_payment_customizations,write_product
 
 [auth]
 redirect_urls = [
-  "https://sandy-latitude-portal-translations.trycloudflare.com/auth/callback",
-  "https://sandy-latitude-portal-translations.trycloudflare.com/auth/shopify/callback",
-  "https://sandy-latitude-portal-translations.trycloudflare.com/api/auth/callback"
+  "https://demonstrates-geography-differently-unlikely.trycloudflare.com/auth/callback",
+  "https://demonstrates-geography-differently-unlikely.trycloudflare.com/auth/shopify/callback",
+  "https://demonstrates-geography-differently-unlikely.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
