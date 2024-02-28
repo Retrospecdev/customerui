@@ -12,7 +12,7 @@ function Extension() {
   return (
     <Banner
       status="critical"
-      title="STOP!!! Do not input payment information in the web portal. Shopify has not made it possible to hide this area, but entering payment here may result in you being charged in error. For all payment matters, please email your rep or AR@Retrospec.com. Payments are not handled in this portal!"
+      title="STOP!! this Do not input payment information in the web portal. Shopify has not made it possible to hide this area, but entering payment here may result in you being charged in error. For all payment matters, please email your rep or AR@Retrospec.com. Payments are not handled in this portal!"
     />
   );
 }
